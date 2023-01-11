@@ -1,0 +1,8 @@
+10 Inserted into Queue 
+20 Inserted into Queue 
+30 Inserted into Queue 
+40 Inserted into Queue 
+50 Inserted into Queue 
+10 Removed From Queue
+The size of the Queue is 4
+The Peek element of the Queue is 20
