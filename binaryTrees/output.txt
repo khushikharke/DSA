@@ -3,5 +3,9 @@
 5 7 
 3 
 6 
-diameter is 5
-optimized diameter is5
+
+27 
+2 21 
+5 9 
+6 
+6 
