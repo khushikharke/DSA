@@ -1,0 +1,2 @@
+Inorder successor of 7 is 8
+Inorder successor of 10 is13
