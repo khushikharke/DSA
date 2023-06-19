@@ -80,16 +80,7 @@ public:
 		return current_ans;
 	}
 	int max_xor(int *input , int n ){
-		int max_xor=0;
-		for(int i=0;i<n;i++){
-			int value = input[i];
-			insert(value);
-			int curr_xor=max_xor_helper(value);
-
-			max_xor = max(max_xor,curr_xor);
-
-		}	
-		return max_xor;
+		pa
 	}
 };
 
