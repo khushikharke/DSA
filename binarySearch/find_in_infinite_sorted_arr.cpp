@@ -1,5 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
+
 int bs(int arr[],int start,int end,int x){
     while(start<=end){
             int mid=start+(end-start)/1;
