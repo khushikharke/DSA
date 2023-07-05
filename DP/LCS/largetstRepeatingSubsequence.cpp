@@ -1,30 +1,40 @@
 // your code here
-int t[x + 1][y + 1];
-// int t[m+1][n+1];
-for (int i = 0; i < x + 1; i++)
+class solution
 {
-    for (int j = 0; j < y + 1; j++)
+public:
+    int LongestRepeatingSubsequence(string str)
     {
-        if (i == 0 || j == 0)
-        {
-            t[i][j] = 0;
-        }
-    }
-}
 
-for (int i = 1; i < x + 1; i++)
-{
-    for (int j = 1; j < y + 1; j++)
-    {
-        if (s1[i - 1] == s2[j - 1])
+        int x = str.size();
+        string s1 = str;
+        string s2 = str;
+        int t[x + 1][y + 1];
+
+        for (int i = 0; i < x + 1; i++)
         {
-            t[i][j] = 1 + t[i - 1][j - 1];
+            for (int j = 0; j < y + 1; j++)
+            {
+                if (i == 0 || j == 0)
+                {
+                    t[i][j] = 0;
+                }
+            }
         }
-        else
+
+        for (int i = 1; i < x + 1; i++)
         {
-            t[i][j] = max(t[i - 1][j], t[i][j - 1]);
+            for (int j = 1; j < y + 1; j++)
+            {
+                if (s1[i - 1] == s2[j - 1])
+                {
+                    t[i][j] = 1 + t[i - 1][j - 1];
+                }
+                else
+                {
+                    t[i][j] = max(t[i - 1][j], t[i][j - 1]);
+                }
+            }
         }
+        return t[x][y];
     }
-}
-return t[x][y];
-}
+};
