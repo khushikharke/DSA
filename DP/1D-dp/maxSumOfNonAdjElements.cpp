@@ -14,6 +14,7 @@ int solve(vector<int> &nums, int i, vector<int> &dp)
     int nottaken = 0 + solve(nums, i - 1, dp);
     return dp[i] = max(taken, nottaken);
 }
+
 int maximumNonAdjacentSum(vector<int> &nums)
 {
     // Write your code here.
