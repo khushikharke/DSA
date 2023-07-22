@@ -3,7 +3,8 @@
   "files.associations": {
     "iostream": "cpp",
     "vector": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "string": "cpp"
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
