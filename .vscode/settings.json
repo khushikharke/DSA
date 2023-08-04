@@ -8,7 +8,8 @@
     "ostream": "cpp",
     "__tree": "cpp",
     "bitset": "cpp",
-    "set": "cpp"
+    "set": "cpp",
+    "type_traits": "cpp"
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
